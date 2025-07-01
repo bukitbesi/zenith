@@ -774,20 +774,6 @@ table.tr-caption-container td.tr-caption{font-size:0.75rem;padding:0.25rem 0 0 0
 .ReportAbuse > h3 a:hover{text-decoration:underline}
 .Header .header-widget a{font-size:1.25rem;color:var(--title-color);font-weight:var(--title-weight)}
 .Header .header-widget a:hover{color:var(--title-hover-color)}
-.wikipedia-search-form{display:flex;gap:0.75rem}
-.wikipedia-search-input{flex:1;width:100%;height:2.5rem;background:var(--gray-bg);font-size:0.875rem;color:var(--title-color);padding:0 1rem;border-radius:var(--radius)}
-.wikipedia-search-input::placeholder{color:var(--title-color);opacity:.65}
-.wikipedia-search-input:focus{box-shadow:0 0 0 2px var(--accent-color-lite)}
-.wikipedia-search-button{height:2.5rem;background:var(--accent-color);font-size:0.875rem;color:var(--white-color);cursor:pointer;padding:0 1rem}
-.wikipedia-search-button:hover{opacity:.9}
-.wikipedia-search-results-header,.wikipedia-search-results:not(:has(a)){display:none!important}
-.wikipedia-search-results a{display:flex;gap:0.375rem;font-size:0.875rem;color:var(--title-color);margin:1rem 0 0}
-.wikipedia-search-results a:after{content:"\f1c5";font-size:0.75rem}
-.wikipedia-search-results a:hover{color:var(--title-hover-color)}
-.wikipedia-search-more:not(:has(a)){display:none!important}
-.wikipedia-search-more a{display:flex;align-items:center;justify-content:center;height:2.5rem;background:var(--accent-color);font-size:1rem;color:var(--white-color);padding:0 1rem;margin:1rem 0 0;border-radius:var(--radius)}
-.wikipedia-search-more a:hover{opacity:.9}
-.wikipedia-search-more a:focus{box-shadow:0 0 0 2px var(--accent-color-lite)}
 .footer-ads .widget{margin:var(--main-gap) 0 0}
 .site-footer{position:relative;background:var(--footer-bg);box-shadow:var(--shadow);margin:var(--main-gap) 0 0;--title-color:var(--footer-color);--title-hover-color:var(--footer-hover-color);--text-color:var(--footer-text-color);--summary-color:var(--footer-text-color);--gray-bg:rgba(155,155,155,.07)}
 .site-footer .footer{float:left;width:100%}
